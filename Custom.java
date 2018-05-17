@@ -93,6 +93,8 @@ public class Custom extends BaseEnversJPAFunctionalTestCase {
 		assert vr.getRevisionDate( vr.getRevisionNumberForDate( new Date( timestamp3 ) ) ).getTime() <= timestamp3;
 	}
 
+
+
 	@Test
 	public void testFindRevision() {
 		AuditReader vr = getAuditReader();
