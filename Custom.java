@@ -25,6 +25,7 @@ import org.junit.Test;
 /**
  * @author Adam Warski (adam at warski dot org)
  */
+//好无聊
 public class Custom extends BaseEnversJPAFunctionalTestCase {
 	private Integer id;
 	private long timestamp1;
