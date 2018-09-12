@@ -43,7 +43,7 @@ public class Custom extends BaseEnversJPAFunctionalTestCase {
 		timestamp1 = System.currentTimeMillis();
 
 		Thread.sleep( 100 );
-
+		System.out.println();
 		// Revision 1
 		EntityManager em = getEntityManager();
 		em.getTransaction().begin();
