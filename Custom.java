@@ -42,7 +42,7 @@ public class Custom extends BaseEnversJPAFunctionalTestCase {
 	public void initData() throws InterruptedException {
 		timestamp1 = System.currentTimeMillis();
 
-		Thread.sleep( 100 );
+		Thread.sleep( 10000 );
 		System.out.println(sssss);
 		// Revision 1
 		EntityManager em = getEntityManager();
