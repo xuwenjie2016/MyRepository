@@ -31,7 +31,7 @@ public class Custom extends BaseEnversJPAFunctionalTestCase {
 	private long timestamp1;
 	private long timestamp2;
 	private long timestamp3;
-
+        private String str;
 	@Override
 	protected Class<?>[] getAnnotatedClasses() {
 		return new Class[] {StrTestEntity.class, CustomRevEntity.class};
